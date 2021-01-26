@@ -33,11 +33,11 @@
       desc: 'Jeans & Denim Clothing Shop Nîmes',
       link: 'https://magklax.github.io/denim/'
     },
-    {
-      name: 'mishka',
-      desc: 'Handmade Toy Store Mishka',
-      link: 'https://magklax.github.io/460793-mishka/'
-    },
+    // {
+    //   name: 'mishka',
+    //   desc: 'Handmade Toy Store Mishka',
+    //   link: 'https://magklax.github.io/460793-mishka/'
+    // },
     {
       name: 'lostatvenue',
       desc: 'Website about Music and Travel Website Lost at Venue',
@@ -52,10 +52,15 @@
       name: 'design',
       desc: 'Interior Design',
       link: 'https://magklax.github.io/design/'
+    },
+    {
+      name: 'english',
+      desc: 'Language Learning Apps For Kids',
+      link: 'https://magklax-english-for-kids.netlify.app/index.html'
     }
   ];
 
-    const setSrc = function (name, index) {
+  const setSrc = function (name, index) {
     return `img/${name}-${index}@mobile.jpg`;
   };
 
